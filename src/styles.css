@@ -8,6 +8,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.card {
+  border: solid 1px;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #a0eaec;
+  color: white;
+}
+
 body {
   margin: 0;
 }
@@ -74,7 +82,7 @@ label {
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
-  border-radius: 2px;
+  border-radius: 10px;
   font-size: 14px;
   cursor: pointer;
   background-color: #1976d2;
