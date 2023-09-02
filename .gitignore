@@ -104,8 +104,14 @@ dist
 .temp
 .cache
 
-# Angular
-.angular
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
 # Docusaurus cache and generated files
 .docusaurus
